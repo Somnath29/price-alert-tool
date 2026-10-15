@@ -54,3 +54,15 @@ I used AI to scaffold the CSV/JSON-based CLI, refine state-transition logic, and
 - **Boundary and MA handling:** Initial logic could treat a threshold touch as a crossing and detect an MA crossover before a prior relationship existed. I added three-state boundary handling (`+1`, `-1`, `0`) and use the first observation with both averages available to establish the baseline.
 
 These changes prevent false alerts and ensure a crossover is detected only when supported by the observed data.
+
+
+
+
+
+
+
+
+
+Project Flow :-
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/bbfff003-22e6-484c-a2b9-91e1bf0f486d" />
