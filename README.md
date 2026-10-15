@@ -12,12 +12,37 @@ python3 -m unittest -v test_alerts.py
 ```
 
 **Expected sample output:**
+
 ```text
 2026-09-03 r1 INFY level below 1500
 2026-09-24 r2 TCS ma_cross 5/20 above
 ```
 
 **Verification:** 43 tests passed. No output is printed when no alerts trigger.
+
+### Manual Testing
+
+Run these commands from the project directory.
+
+**1. Test manual price and rule data**
+
+```bash
+python3 alerts.py testingData/manual_prices.csv testingData/manual_rules.json
+```
+
+**2. Test invalid price data**
+
+```bash
+python3 alerts.py testingData/invalid_prices.csv testingData/manual_rules.json
+```
+
+**3. Test invalid rule configuration**
+
+```bash
+python3 alerts.py testingData/manual_prices.csv testingData/invalid_rules.json
+```
+
+The invalid-input tests verify that the program handles incorrect price data and rule configurations appropriately.
 
 ## 2. AI Assistant Usage
 
