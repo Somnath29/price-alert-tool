@@ -1,0 +1,9 @@
+[
+    {
+        "id": "r3",
+        "instrument": "MISSING",
+        "type": "level",
+        "direction": "below",
+        "level": 100
+    }
+]

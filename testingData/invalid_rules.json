@@ -1,0 +1,10 @@
+[
+    {
+        "id": "r1",
+        "instrument": "XYZ",
+        "type": "level",
+        "direction": "below",
+        "level": 100
+    }
+]
+

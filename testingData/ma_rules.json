@@ -1,0 +1,10 @@
+[
+    {
+        "id": "ma1",
+        "instrument": "XYZ",
+        "type": "ma_cross",
+        "short": 2,
+        "long": 3,
+        "direction": "above"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": "r1",
+        "instrument": "ABC",
+        "type": "level",
+        "direction": "below",
+        "level": 1500
+    },
+    {
+        "id": "r2",
+        "instrument": "ABC",
+        "type": "level",
+        "direction": "above",
+        "level": 1500
+    }
+]

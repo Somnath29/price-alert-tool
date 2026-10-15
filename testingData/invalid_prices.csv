@@ -1,0 +1,4 @@
+date,instrument,close
+2026-10-01,XYZ,100
+2026-10-02,XYZ,NaN
+2026-10-03,XYZ,105
